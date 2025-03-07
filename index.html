@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 21st Birthday!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      color: #ff6f61;
+      margin-top: 50px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #ff6f61;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+    .button:hover {
+      background-color: #ff4a3d;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      position: relative;
+      z-index: 1; /* Ensure card is above flowers */
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 20px 0;
+    }
+    .gallery img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ff6f61;
+    }
+    .message {
+      margin: 20px;
+      font-size: 18px;
+      color: #333;
+      text-align: left;
+    }
+    /* Falling Flowers Animation */
+    .flower-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none; /* Allow scrolling through flowers */
+      z-index: 0; /* Ensure flowers are behind the card */
+    }
+    .flower {
+      position: absolute;
+      top: -50px;
+      font-size: 24px;
+      animation: fall linear infinite;
+    }
+    @keyframes fall {
+      to {
+        transform: translateY(100vh);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- First Page -->
+  <div id="page1">
+    <h1>Happy Birthday, Ate Cindy!</h1>
+    <a href="#page2" class="button">Click Here!</a>
+  </div>
+
+  <!-- Second Page -->
+  <div id="page2" style="display: none;">
+    <!-- Falling Flowers Container -->
+    <div class="flower-container">
+      <div class="flower" style="left: 10%; animation-duration: 5s;">🌸</div>
+      <div class="flower" style="left: 20%; animation-duration: 7s;">🌼</div>
+      <div class="flower" style="left: 30%; animation-duration: 6s;">🌺</div>
+      <div class="flower" style="left: 40%; animation-duration: 8s;">🌸</div>
+      <div class="flower" style="left: 50%; animation-duration: 9s;">🌼</div>
+      <div class="flower" style="left: 60%; animation-duration: 5s;">🌺</div>
+      <div class="flower" style="left: 70%; animation-duration: 6s;">🌸</div>
+      <div class="flower" style="left: 80%; animation-duration: 7s;">🌼</div>
+      <div class="flower" style="left: 90%; animation-duration: 8s;">🌺</div>
+      <div class="flower" style="left: 95%; animation-duration: 9s;">🌸</div>
+    </div>
+
+    <!-- Card with Pictures and Message -->
+    <div class="card">
+      <h1>Our Memories Together</h1>
+      <!-- Top Row: 5 Pictures -->
+      <div class="gallery">
+        <img src="1.jpg" alt="Memory 1">
+        <img src="2.jpg" alt="Memory 2">
+        <img src="3.jpg" alt="Memory 3">
+        <img src="4.jpg" alt="Memory 4">
+        <img src="5.jpg" alt="Memory 5">
+      </div>
+      <!-- Bottom Row: 5 Pictures -->
+      <div class="gallery">
+        <img src="6.jpg" alt="Memory 6">
+        <img src="7.jpg" alt="Memory 7">
+        <img src="8.jpg" alt="Memory 8">
+        <img src="9.jpg" alt="Memory 9">
+        <img src="10.jpg" alt="Memory 10">
+      </div>
+      <!-- Message -->
+      <div class="message">
+        <p>Happy 21st birthday to you, ate! Even though you don't really like celebrating your birthday, especially karun nga medyo nagka problema and even if you can't be with your family to celebrate, I still want to make you feel special in a simple way through this message. I want you to know that this day is for you, and there are people who appreciate and love you.
+
+            I just wish you happiness, more birthdays to come, and more bonding moments. Time is short for us to hang out because we’re almost done with school, but I know even after we finish our studies, we’ll still find a way to meet and spend time together(oa naa pay isa kapin ka tuig).
+            
+            By the way, I know recently you went through a tough situation, but I want you to remember that everything happens for a reason. If you feel like people don’t stay, or if you feel unappreciated, I want you to know that I see how good of a person you are. Not everyone may notice, but I truly do. And even if you feel like people come and go, I want you to know I’ll be here for you no matter what. I accept you for who you are, no matter what you’ve been through. I know there are still people out there who love and care for you, and in God's perfect time, you’ll find those who will stay for good.
+            
+            I’m really proud of you. Despite all the problems you’ve faced, I know there are many things you don't tell me, but you’re handling them with so much strength. You’re strong, and you’re doing everything for your family. That’s why I’m so proud of you. But I also want to remind you not to forget yourself and take care of your health.
+            
+            And just a little extra reminder: continue being true to yourself, even if you get a bit "delusional" with your crushes🤪. As long as it makes you happy and doesn’t harm you, I’ll support you. I just want you to be happy.
+            
+            And even though you can’t be with your family today to celebrate, I want you to feel that you’re not alone. I’m here for you, to make sure you feel special today.
+            
+            I hope you enjoy your day today. Once again, happy birthday maldita nako nga ate HAHAHHAHA !
+            
+            
+            ps: favorite ferson nimo nga sufer cute, greenest green flag, your source of happiness, caring ang loving monkey.</p>
+        <p>Your Favorite Person, Tinay</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript to switch between pages
+    document.querySelector('.button').addEventListener('click', function() {
+      document.getElementById('page1').style.display = 'none';
+      document.getElementById('page2').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
